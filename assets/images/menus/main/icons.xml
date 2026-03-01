@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TextureAtlas imagePath="icons.png" width="936" height="113">
+	<SubTexture name="credIcon0000" x="122" y="1" width="98" height="75" rotated="true" frameX="-2" frameY="-0" frameWidth="78" frameHeight="99"/>
+	<SubTexture name="credIcon0001" x="122" y="1" width="98" height="75" rotated="true" frameX="-2" frameY="-0" frameWidth="78" frameHeight="99"/>
+	<SubTexture name="credIcon0002" x="122" y="1" width="98" height="75" rotated="true" frameX="-2" frameY="-0" frameWidth="78" frameHeight="99"/>
+	<SubTexture name="credIcon0003" x="122" y="1" width="98" height="75" rotated="true" frameX="-2" frameY="-0" frameWidth="78" frameHeight="99"/>
+	<SubTexture name="credIcon0004" x="225" y="1" width="99" height="75" rotated="true" frameX="-1" frameY="-0" frameWidth="78" frameHeight="99"/>
+	<SubTexture name="credIcon0005" x="225" y="1" width="99" height="75" rotated="true" frameX="-1" frameY="-0" frameWidth="78" frameHeight="99"/>
+	<SubTexture name="credIcon0006" x="225" y="1" width="99" height="75" rotated="true" frameX="-1" frameY="-0" frameWidth="78" frameHeight="99"/>
+	<SubTexture name="credIcon0007" x="225" y="1" width="99" height="75" rotated="true" frameX="-1" frameY="-0" frameWidth="78" frameHeight="99"/>
+	<SubTexture name="playIcon0000" x="440" y="1" width="135" height="99" rotated="true" frameX="-19" frameY="-0" frameWidth="118" frameHeight="136"/>
+	<SubTexture name="playIcon0001" x="440" y="1" width="135" height="99" rotated="true" frameX="-19" frameY="-0" frameWidth="118" frameHeight="136"/>
+	<SubTexture name="playIcon0002" x="440" y="1" width="135" height="99" rotated="true" frameX="-19" frameY="-0" frameWidth="118" frameHeight="136"/>
+	<SubTexture name="playIcon0003" x="440" y="1" width="135" height="99" rotated="true" frameX="-19" frameY="-0" frameWidth="118" frameHeight="136"/>
+	<SubTexture name="playIcon0004" x="1" y="1" width="116" height="73" frameX="-0" frameY="-13" frameWidth="118" frameHeight="136"/>
+	<SubTexture name="playIcon0005" x="1" y="1" width="116" height="73" frameX="-0" frameY="-13" frameWidth="118" frameHeight="136"/>
+	<SubTexture name="playIcon0006" x="1" y="1" width="116" height="73" frameX="-0" frameY="-13" frameWidth="118" frameHeight="136"/>
+	<SubTexture name="playIcon0007" x="1" y="1" width="116" height="73" frameX="-0" frameY="-13" frameWidth="118" frameHeight="136"/>
+	<SubTexture name="settingsIcon0000" x="815" y="1" width="120" height="111" frameX="-1" frameY="-0" frameWidth="121" frameHeight="111"/>
+	<SubTexture name="settingsIcon0001" x="815" y="1" width="120" height="111" frameX="-1" frameY="-0" frameWidth="121" frameHeight="111"/>
+	<SubTexture name="settingsIcon0002" x="815" y="1" width="120" height="111" frameX="-1" frameY="-0" frameWidth="121" frameHeight="111"/>
+	<SubTexture name="settingsIcon0003" x="815" y="1" width="120" height="111" frameX="-1" frameY="-0" frameWidth="121" frameHeight="111"/>
+	<SubTexture name="settingsIcon0004" x="690" y="1" width="120" height="110" frameX="-1" frameY="-1" frameWidth="121" frameHeight="111"/>
+	<SubTexture name="settingsIcon0005" x="690" y="1" width="120" height="110" frameX="-1" frameY="-1" frameWidth="121" frameHeight="111"/>
+	<SubTexture name="settingsIcon0006" x="690" y="1" width="120" height="110" frameX="-1" frameY="-1" frameWidth="121" frameHeight="111"/>
+	<SubTexture name="settingsIcon0007" x="690" y="1" width="120" height="110" frameX="-1" frameY="-1" frameWidth="121" frameHeight="111"/>
+	<SubTexture name="webIcon0000" x="329" y="1" width="106" height="97" frameX="-0" frameY="-3" frameWidth="106" frameHeight="102"/>
+	<SubTexture name="webIcon0001" x="329" y="1" width="106" height="97" frameX="-0" frameY="-3" frameWidth="106" frameHeight="102"/>
+	<SubTexture name="webIcon0002" x="329" y="1" width="106" height="97" frameX="-0" frameY="-3" frameWidth="106" frameHeight="102"/>
+	<SubTexture name="webIcon0003" x="329" y="1" width="106" height="97" frameX="-0" frameY="-3" frameWidth="106" frameHeight="102"/>
+	<SubTexture name="webIcon0004" x="580" y="1" width="105" height="102" frameX="-1" frameY="-0" frameWidth="106" frameHeight="102"/>
+	<SubTexture name="webIcon0005" x="580" y="1" width="105" height="102" frameX="-1" frameY="-0" frameWidth="106" frameHeight="102"/>
+	<SubTexture name="webIcon0006" x="580" y="1" width="105" height="102" frameX="-1" frameY="-0" frameWidth="106" frameHeight="102"/>
+	<SubTexture name="webIcon0007" x="580" y="1" width="105" height="102" frameX="-1" frameY="-0" frameWidth="106" frameHeight="102"/>
+</TextureAtlas>

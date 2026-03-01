@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="meteor.png">
+	<!-- Created with Adobe Animate version 23.0.0.407 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="meteor0000" x="0" y="0" width="737" height="709"/>
+	<SubTexture name="meteor0001" x="0" y="709" width="696" height="695" frameX="0" frameY="-14" frameWidth="737" frameHeight="709"/>
+	<SubTexture name="meteor0002" x="696" y="709" width="666" height="683" frameX="-8" frameY="-18" frameWidth="737" frameHeight="709"/>
+	<SubTexture name="meteor0003" x="737" y="0" width="663" height="692" frameX="-8" frameY="-9" frameWidth="737" frameHeight="709"/>
+</TextureAtlas>

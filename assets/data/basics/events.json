@@ -1,0 +1,1512 @@
+{
+	"song": {
+		"events": [
+			[
+				0,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.6,17",
+						""
+					]
+				]
+			],
+			[
+				17142.8571428571,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.625,1.5",
+						"cubeInOut"
+					]
+				]
+			],
+			[
+				36571.4285714286,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.675,2.25",
+						"cubeInOut"
+					]
+				]
+			],
+			[
+				37714.2857142857,
+				[
+					[
+						"Set Property",
+						"beatsPerZoom",
+						"2"
+					]
+				]
+			],
+			[
+				40571.4285714286,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.667, 0.3",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				40857.1428571428,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.65, 0.3",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				42857.1428571428,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.667, 0.3",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				43142.8571428571,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.675, 0.3",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				49714.2857142857,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.667, 0.3",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				50000,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.65, 0.3",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				52000,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.667, 0.3",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				52285.7142857143,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.675, 0.3",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				56000,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.7, 0.3",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				56285.7142857143,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.725, 0.3",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				56571.4285714286,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.75, 0.3",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				56857.1428571429,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.775, 0.3",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				57142.8571428572,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.71, 1",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				58285.7142857143,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.67, 1",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				59428.5714285715,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.63, 1",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				60571.4285714286,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.6, 1",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				61714.2857142857,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.625, 0.8",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				62571.4285714286,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.65, 0.8",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				63428.5714285715,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.675, 0.8",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				64000,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.687, 0.5",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				64571.4285714286,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.7, 0.5",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				65142.8571428572,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.725, 0.5",
+						"cubeIn"
+					]
+				]
+			],
+			[
+				65714.2857142858,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.75, 0.3",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				66000,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.775, 0.3",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				66285.7142857143,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.71, 1",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				67428.5714285714,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.67, 1",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				68571.4285714286,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.63, 1",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				69714.2857142857,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.6, 1",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				70857.1428571429,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.65, 1",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				72285.7142857143,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.675, 0.3",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				72571.4285714286,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.7, 0.3",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				73142.8571428572,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.72, 0.3",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				73428.5714285715,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.725, 0.3",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				73714.2857142858,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.745, 0.3",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				74000,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.75, 0.3",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				74285.7142857143,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.85, 1.3",
+						"cubeIn"
+					]
+				]
+			],
+			[
+				75285.7142857143,
+				[
+					[
+						"revealThinkpad",
+						"",
+						""
+					]
+				],
+				null,
+				""
+			],
+			[
+				75785.7142857143,
+				[
+					[
+						"mathAnims",
+						"basics",
+						""
+					],
+					[
+						"mathText",
+						"Now its time for everybody's favorite subject,",
+						""
+					]
+				]
+			],
+			[
+				79142.8571428572,
+				[
+					[
+						"mathText",
+						"MATH!",
+						"big"
+					]
+				],
+				null,
+				""
+			],
+			[
+				80285.7142857143,
+				[
+					[
+						"mathText",
+						"Answer the 3 questions correctly",
+						""
+					]
+				]
+			],
+			[
+				82857.1428571429,
+				[
+					[
+						"mathText",
+						"and",
+						""
+					]
+				]
+			],
+			[
+				83142.8571428572,
+				[
+					[
+						"mathText",
+						"YOU",
+						"big"
+					]
+				]
+			],
+			[
+				83428.5714285715,
+				[
+					[
+						"mathText",
+						"might get something special.",
+						""
+					]
+				]
+			],
+			[
+				86000.0000000001,
+				[
+					[
+						"mathText",
+						"Just type in the correct answer into the empty box!",
+						""
+					]
+				]
+			],
+			[
+				90285.7142857144,
+				[
+					[
+						"mathText",
+						"",
+						""
+					]
+				]
+			],
+			[
+				93714.2857142858,
+				[
+					[
+						"mathAnims",
+						"two",
+						""
+					],
+					[
+						"mathText",
+						"Solve Math Q1:\n\n2",
+						"big"
+					],
+					[
+						"",
+						"resetText",
+						""
+					]
+				]
+			],
+			[
+				94285.7142857144,
+				[
+					[
+						"mathAnims",
+						"plus",
+						""
+					],
+					[
+						"mathText",
+						"Solve Math Q1:\n\n2 +",
+						"big"
+					]
+				]
+			],
+			[
+				94857.1428571429,
+				[
+					[
+						"mathAnims",
+						"two",
+						""
+					],
+					[
+						"mathText",
+						"Solve Math Q1:\n\n2 + 2",
+						"big"
+					]
+				]
+			],
+			[
+				95428.5714285715,
+				[
+					[
+						"mathAnims",
+						"equals",
+						""
+					],
+					[
+						"mathText",
+						"Solve Math Q1:\n\n2 + 2 =",
+						"big"
+					]
+				]
+			],
+			[
+				95500.0000000001,
+				[
+					[
+						"startMathEquation",
+						"2,2",
+						"true"
+					]
+				],
+				null,
+				""
+			],
+			[
+				96000.0000000001,
+				[
+					[
+						"mathCpuCheck",
+						"",
+						""
+					]
+				],
+				null,
+				""
+			],
+			[
+				98285.7142857144,
+				[
+					[
+						"mathAnims",
+						"four",
+						""
+					],
+					[
+						"mathText",
+						"Solve Math Q2:\n\n4",
+						"big"
+					],
+					[
+						"checkMathAnswer",
+						"resetText",
+						""
+					]
+				],
+				null,
+				""
+			],
+			[
+				98857.1428571429,
+				[
+					[
+						"mathAnims",
+						"plus",
+						""
+					],
+					[
+						"mathText",
+						"Solve Math Q2:\n\n4 +",
+						"big"
+					]
+				]
+			],
+			[
+				99428.5714285715,
+				[
+					[
+						"mathAnims",
+						"five",
+						""
+					],
+					[
+						"mathText",
+						"Solve Math Q2:\n\n4 + 5",
+						"big"
+					]
+				]
+			],
+			[
+				100000,
+				[
+					[
+						"mathAnims",
+						"equals",
+						""
+					],
+					[
+						"mathText",
+						"Solve Math Q2:\n\n4 + 5 =",
+						"big"
+					]
+				]
+			],
+			[
+				100071.428571429,
+				[
+					[
+						"startMathEquation",
+						"4,5",
+						"true"
+					]
+				],
+				null,
+				""
+			],
+			[
+				100571.428571429,
+				[
+					[
+						"mathCpuCheck",
+						"",
+						""
+					]
+				],
+				null,
+				""
+			],
+			[
+				102857.142857143,
+				[
+					[
+						"mathAnims",
+						"four",
+						""
+					],
+					[
+						"mathText",
+						"Solve Math Q3:\n\n4",
+						" big"
+					],
+					[
+						"checkMathAnswer",
+						"",
+						""
+					]
+				],
+				null,
+				""
+			],
+			[
+				103428.571428572,
+				[
+					[
+						"mathAnims",
+						"minus",
+						""
+					],
+					[
+						"mathText",
+						"Solve Math Q3:\n\n4 -",
+						"big"
+					]
+				]
+			],
+			[
+				104000,
+				[
+					[
+						"mathAnims",
+						"two",
+						""
+					],
+					[
+						"mathText",
+						"Solve Math Q3:\n\n4 - 2",
+						"big"
+					]
+				]
+			],
+			[
+				104571.428571429,
+				[
+					[
+						"mathAnims",
+						"equals",
+						""
+					],
+					[
+						"mathText",
+						"Solve Math Q3:\n\n4 - 2 =",
+						"big"
+					]
+				]
+			],
+			[
+				104642.857142857,
+				[
+					[
+						"startMathEquation",
+						"4,2",
+						""
+					]
+				],
+				null,
+				""
+			],
+			[
+				105142.857142857,
+				[
+					[
+						"mathCpuCheck",
+						"",
+						""
+					]
+				],
+				null,
+				""
+			],
+			[
+				106000,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.7,0.1",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				106285.714285714,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.775,1",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				106857.142857143,
+				[
+					[
+						"checkMathAnswer",
+						"",
+						""
+					],
+					[
+						"exitThinkpad",
+						"",
+						""
+					]
+				],
+				null,
+				""
+			],
+			[
+				107428.571428571,
+				[
+					[
+						"",
+						"goodOne",
+						""
+					],
+					[
+						"Camera Tween Zoom",
+						"0.8,1",
+						"cubeOut"
+					]
+				],
+				null,
+				""
+			],
+			[
+				109714.285714285,
+				[
+					[
+						"",
+						"swapBaldiPoses",
+						""
+					],
+					[
+						"setZoom",
+						"0.775",
+						""
+					]
+				],
+				null,
+				""
+			],
+			[
+				110464.285714285,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.75,0.3",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				110750,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.725,0.3",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				111035.714285714,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.7,0.3",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				113714.285714285,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.75,0.5",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				114285.714285714,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.76,0.3",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				115428.571428571,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.7,1.3",
+						"cubeIn"
+					]
+				]
+			],
+			[
+				116571.428571428,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.725,0.3",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				117035.714285714,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.75,0.3",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				117321.428571428,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.755,0.2",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				117428.571428571,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.775,0.3",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				118000,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.8,0.5",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				118571.428571428,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.75,0.3",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				118857.142857143,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.725,0.6",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				119607.142857143,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.75,0.3",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				119892.857142857,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.775,0.3",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				120178.571428571,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.8,0.3",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				122857.142857143,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.75,0.5",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				123428.571428571,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.76,0.3",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				124571.428571428,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.7,1.3",
+						"cubeIn"
+					]
+				]
+			],
+			[
+				125714.285714285,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.725,0.3",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				126178.571428571,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.75,0.3",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				126464.285714285,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.755,0.2",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				126571.428571428,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.775,0.3",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				127142.857142857,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.825,0.6",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				127714.285714285,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.85,0.3",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				128285.714285714,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.845,0.3",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				128571.428571428,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.84,0.2",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				128750,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.835,0.2",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				128857.142857143,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.83,0.2",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				129035.714285714,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.825,0.2",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				129714.285714285,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.8,0.3",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				130000,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.775,0.3",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				132000,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.75,0.3",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				132285.714285714,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.725,0.3",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				134857.142857142,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.72,0.2",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				135035.714285714,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.715,0.2",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				135142.857142857,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.71,0.2",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				135321.428571428,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.705,0.2",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				135428.571428571,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.69,0.2",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				135714.285714285,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.675,0.2",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				136000,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.7,0.3",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				136285.714285714,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.725,0.3",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				136571.428571428,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.775,0.4",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				136857.142857142,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.825,0.4",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				138857.142857143,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.8,0.3",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				139142.857142857,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.775,0.3",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				141142.857142857,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.75,0.3",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				141428.571428571,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.725,0.3",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				144000,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.72,0.2",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				144178.571428571,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.715,0.2",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				144285.714285714,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.71,0.2",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				144464.285714285,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.705,0.2",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				144571.428571428,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.69,0.2",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				144857.142857142,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.675,0.2",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				145142.857142857,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.7,0.3",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				145428.571428571,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.725,0.3",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				145714.285714285,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.775,0.4",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				146000,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.825,0.4",
+						"cubeOut"
+					]
+				]
+			],
+			[
+				146285.714285714,
+				[
+					[
+						"Camera Tween Zoom",
+						"0.65,4",
+						"cubeOut"
+					],
+					[
+						"Set Property",
+						"beatsPerZoom",
+						"4"
+					]
+				]
+			],
+			[
+				164571.428571428,
+				[
+					[
+						"setZoom",
+						"0.7",
+						""
+					]
+				]
+			],
+			[
+				173714.285714285,
+				[
+					[
+						"setZoom",
+						"0.75",
+						""
+					]
+				]
+			],
+			[
+				180571.428571428,
+				[
+					[
+						"setZoom",
+						"0.775",
+						""
+					]
+				]
+			],
+			[
+				181714.285714285,
+				[
+					[
+						"setZoom",
+						"0.8",
+						""
+					]
+				]
+			],
+			[
+				182857.142857142,
+				[
+					[
+						"setZoom",
+						"0.65",
+						""
+					],
+					[
+						"Set Property",
+						"beatsPerZoom",
+						"8"
+					]
+				]
+			],
+			[
+				185428.571428571,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					],
+					[
+						"Set Property",
+						"beatsPerZoom",
+						"999"
+					]
+				]
+			]
+		]
+	}
+}

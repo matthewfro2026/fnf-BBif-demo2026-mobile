@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TextureAtlas imagePath="firewall.png" width="3157" height="2847">
+	<SubTexture name="firewall0000" x="1" y="1" width="627" height="470" frameX="-0" frameY="-0" frameWidth="627" frameHeight="471"/>
+	<SubTexture name="firewall0001" x="1" y="476" width="627" height="470" frameX="-0" frameY="-0" frameWidth="627" frameHeight="471"/>
+	<SubTexture name="firewall0002" x="633" y="1" width="627" height="470" frameX="-0" frameY="-0" frameWidth="627" frameHeight="471"/>
+	<SubTexture name="firewall0003" x="633" y="476" width="627" height="470" frameX="-0" frameY="-0" frameWidth="627" frameHeight="471"/>
+	<SubTexture name="firewall0004" x="1" y="951" width="627" height="470" frameX="-0" frameY="-0" frameWidth="627" frameHeight="471"/>
+	<SubTexture name="firewall0005" x="633" y="951" width="627" height="470" frameX="-0" frameY="-0" frameWidth="627" frameHeight="471"/>
+	<SubTexture name="firewall0006" x="1265" y="1" width="627" height="470" frameX="-0" frameY="-0" frameWidth="627" frameHeight="471"/>
+	<SubTexture name="firewall0007" x="1265" y="476" width="627" height="470" frameX="-0" frameY="-0" frameWidth="627" frameHeight="471"/>
+	<SubTexture name="firewall0008" x="1265" y="951" width="627" height="470" frameX="-0" frameY="-0" frameWidth="627" frameHeight="471"/>
+	<SubTexture name="firewall0009" x="1" y="1426" width="627" height="470" frameX="-0" frameY="-0" frameWidth="627" frameHeight="471"/>
+	<SubTexture name="firewall0010" x="633" y="1426" width="627" height="470" frameX="-0" frameY="-0" frameWidth="627" frameHeight="471"/>
+	<SubTexture name="firewall0011" x="1265" y="1426" width="627" height="470" frameX="-0" frameY="-0" frameWidth="627" frameHeight="471"/>
+	<SubTexture name="firewall0012" x="1897" y="1" width="627" height="470" frameX="-0" frameY="-0" frameWidth="627" frameHeight="471"/>
+	<SubTexture name="firewall0013" x="1897" y="476" width="627" height="470" frameX="-0" frameY="-0" frameWidth="627" frameHeight="471"/>
+	<SubTexture name="firewall0014" x="1897" y="951" width="627" height="470" frameX="-0" frameY="-0" frameWidth="627" frameHeight="471"/>
+	<SubTexture name="firewall0015" x="1897" y="1426" width="627" height="470" frameX="-0" frameY="-0" frameWidth="627" frameHeight="471"/>
+	<SubTexture name="firewall0016" x="1" y="1901" width="627" height="470" frameX="-0" frameY="-0" frameWidth="627" frameHeight="471"/>
+	<SubTexture name="firewall0017" x="633" y="1901" width="627" height="470" frameX="-0" frameY="-0" frameWidth="627" frameHeight="471"/>
+	<SubTexture name="firewall0018" x="1265" y="1901" width="627" height="470" frameX="-0" frameY="-0" frameWidth="627" frameHeight="471"/>
+	<SubTexture name="firewall0019" x="1897" y="1901" width="627" height="470" frameX="-0" frameY="-0" frameWidth="627" frameHeight="471"/>
+	<SubTexture name="firewall0020" x="1" y="2376" width="627" height="470" frameX="-0" frameY="-0" frameWidth="627" frameHeight="471"/>
+	<SubTexture name="firewall0021" x="633" y="2376" width="627" height="470" frameX="-0" frameY="-0" frameWidth="627" frameHeight="471"/>
+	<SubTexture name="firewall0022" x="1265" y="2376" width="627" height="470" frameX="-0" frameY="-0" frameWidth="627" frameHeight="471"/>
+	<SubTexture name="firewall0023" x="1897" y="2376" width="627" height="470" frameX="-0" frameY="-0" frameWidth="627" frameHeight="471"/>
+	<SubTexture name="firewall0024" x="2529" y="1" width="627" height="470" frameX="-0" frameY="-0" frameWidth="627" frameHeight="471"/>
+	<SubTexture name="firewall0025" x="2529" y="476" width="627" height="470" frameX="-0" frameY="-0" frameWidth="627" frameHeight="471"/>
+	<SubTexture name="firewall0026" x="2529" y="951" width="627" height="470" frameX="-0" frameY="-0" frameWidth="627" frameHeight="471"/>
+	<SubTexture name="firewall0027" x="2529" y="1426" width="627" height="470" frameX="-0" frameY="-0" frameWidth="627" frameHeight="471"/>
+	<SubTexture name="firewall0028" x="2529" y="1901" width="627" height="470" frameX="-0" frameY="-0" frameWidth="627" frameHeight="471"/>
+	<SubTexture name="firewall0029" x="2529" y="2376" width="627" height="470" frameX="-0" frameY="-0" frameWidth="627" frameHeight="471"/>
+</TextureAtlas>

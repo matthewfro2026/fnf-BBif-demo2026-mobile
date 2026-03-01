@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TextureAtlas imagePath="3dbf.png" width="1024" height="2048">
+	<SubTexture name="idle0000" x="8" y="536" width="256" height="256" frameX="-0" frameY="-0" frameWidth="256" frameHeight="256"/>
+	<SubTexture name="idle0001" x="8" y="800" width="256" height="256" frameX="-0" frameY="-0" frameWidth="256" frameHeight="256"/>
+	<SubTexture name="idle0002" x="8" y="1064" width="256" height="256" frameX="-0" frameY="-0" frameWidth="256" frameHeight="256"/>
+	<SubTexture name="idle0003" x="8" y="1328" width="256" height="256" frameX="-0" frameY="-0" frameWidth="256" frameHeight="256"/>
+	<SubTexture name="idle0004" x="8" y="1592" width="256" height="256" frameX="-0" frameY="-0" frameWidth="256" frameHeight="256"/>
+	<SubTexture name="up0000" x="272" y="1592" width="256" height="256" frameX="-0" frameY="-0" frameWidth="256" frameHeight="256"/>
+	<SubTexture name="up0001" x="536" y="8" width="256" height="256" frameX="-0" frameY="-0" frameWidth="256" frameHeight="256"/>
+	<SubTexture name="down0000" x="8" y="8" width="256" height="256" frameX="-0" frameY="-0" frameWidth="256" frameHeight="256"/>
+	<SubTexture name="down0001" x="8" y="272" width="256" height="256" frameX="-0" frameY="-0" frameWidth="256" frameHeight="256"/>
+	<SubTexture name="left0000" x="272" y="8" width="256" height="256" frameX="-0" frameY="-0" frameWidth="256" frameHeight="256"/>
+	<SubTexture name="left0001" x="272" y="272" width="256" height="256" frameX="-0" frameY="-0" frameWidth="256" frameHeight="256"/>
+	<SubTexture name="right0000" x="272" y="1064" width="256" height="256" frameX="-0" frameY="-0" frameWidth="256" frameHeight="256"/>
+	<SubTexture name="right0001" x="272" y="1328" width="256" height="256" frameX="-0" frameY="-0" frameWidth="256" frameHeight="256"/>
+	<SubTexture name="pib0000" x="272" y="536" width="256" height="256" frameX="-0" frameY="-0" frameWidth="256" frameHeight="256"/>
+	<SubTexture name="pib0001" x="272" y="800" width="256" height="256" frameX="-0" frameY="-0" frameWidth="256" frameHeight="256"/>
+</TextureAtlas>

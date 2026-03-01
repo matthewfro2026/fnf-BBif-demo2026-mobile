@@ -1,0 +1,76 @@
+[
+	{
+		"profile": "default",
+		"pkgs": [
+			{
+				"name": "flixel",
+				"link": "https://github.com/HaxeFlixel/flixel",
+                "branch": "1ffd25bfa31c835ab3d2eba8cd6141ba481e5955"
+			},
+			{
+				"name": "flixel-addons",
+				"link": "https://github.com/HaxeFlixel/flixel-addons",
+				"branch": "e7350a9af0b40681bde04403c3b08d18d1a18fc4"
+			},
+			{
+				"name": "flixel-ui",
+				"version": "2.6.4"
+			},
+			{
+				"name": "tjson",
+				"version": "1.4.0"
+			},
+			{
+				"name": "hxvlc",
+				"version": "2.2.5"
+			},
+			{
+				"name": "hscript-iris",
+				"version": "1.1.3"
+			},
+			{
+				"name": "linc_luajit",
+				"link": "https://github.com/superpowers04/linc_luajit",
+				"branch": "1906c4a96f6bb6df66562b3f24c62f4c5bba14a7"
+			},
+			{
+				"name": "lime",
+				"version": "8.1.3"
+			},
+			{
+				"name": "openfl",
+				"version": "9.5.0"
+			},
+			{
+				"name": "flixel-animate",
+				"link": "https://github.com/MaybeMaru/flixel-animate",
+				"branch": "1877920f04b32568f491e2309184219713af8f4b"
+			},
+			{
+				"name": "hxdiscord_rpc",
+				"version": "1.3.0"
+			},
+			{
+				"name": "hxcpp",
+				"link": "https://github.com/HaxeFoundation/hxcpp",
+				"branch": "8268ef2d518b1e7c8e8494114d0bdf6b5bc4147d"
+			},
+			{
+				"name": "hscript",
+				"version": "2.6.0"
+			},
+			{
+				"name": "hxcpp-debug-server",
+				"version": "1.2.4"
+			},
+			{
+				"name": "away3d",
+				"version": "5.0.9"
+			},
+			{
+				"name": "hxini",
+				"version": "3.0.0"
+			}
+		]
+	}
+]

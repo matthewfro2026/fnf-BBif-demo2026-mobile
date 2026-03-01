@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TextureAtlas imagePath="static.png" width="6422" height="722">
+	<SubTexture name="null_bg_bro_3E74251" x="1" y="1" width="1280" height="720" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="null_bg_bro_5253966" x="1286" y="1" width="1280" height="720" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="null_bg_bro_A8A7DF7" x="2571" y="1" width="1280" height="720" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="null_bg_bro_C549C84" x="3856" y="1" width="1280" height="720" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="null_bg_bro_FCADC22" x="5141" y="1" width="1280" height="720" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="720"/>
+</TextureAtlas>

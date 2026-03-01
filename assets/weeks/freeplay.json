@@ -1,0 +1,20 @@
+{
+	"songs": [
+		["Firewall", "paldo", [253, 7, 0]]
+	],
+
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"weekBackground": "",
+
+	"storyName": "freeplay",
+	"weekBefore": "week1",
+	"weekName": "freeplay",
+	"startUnlocked": true,
+
+	"hideStoryMode": true,
+	"hideFreeplay": false
+}

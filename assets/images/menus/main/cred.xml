@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<TextureAtlas imagePath="cred.png" width="331" height="343">
+	<SubTexture name="cred0000" x="1" y="241" width="312" height="101" frameX="-0" frameY="-0" frameWidth="312" frameHeight="101"/>
+	<SubTexture name="credhovered0000" x="1" y="1" width="329" height="115" frameX="-0" frameY="-0" frameWidth="329" frameHeight="115"/>
+	<SubTexture name="credhovered0001" x="1" y="121" width="329" height="115" frameX="-0" frameY="-0" frameWidth="329" frameHeight="115"/>
+</TextureAtlas>

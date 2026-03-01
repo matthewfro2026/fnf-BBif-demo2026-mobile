@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TextureAtlas imagePath="settings.png" width="1133" height="105">
+	<SubTexture name="settings0000" x="765" y="1" width="367" height="101" frameX="-0" frameY="-0" frameWidth="367" frameHeight="101"/>
+	<SubTexture name="settingshovered0000" x="1" y="1" width="377" height="103" frameX="-0" frameY="-0" frameWidth="377" frameHeight="103"/>
+	<SubTexture name="settingshovered0001" x="383" y="1" width="377" height="103" frameX="-0" frameY="-0" frameWidth="377" frameHeight="103"/>
+</TextureAtlas>

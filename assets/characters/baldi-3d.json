@@ -1,0 +1,92 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				7,
+				1
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "pibbyglitch",
+			"loop": true,
+			"name": "pib"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/baldi/threed",
+	"position": [
+		90,
+		220
+	],
+	"pauseDuringSustains": true,
+	"healthicon": "3dbaldi",
+	"flip_x": false,
+	"healthbar_colors": [
+		10,
+		239,
+		25
+	],
+	"camera_position": [
+		-150,
+		-360
+	],
+	"sing_duration": 6.1,
+	"scale": 0.7,
+	"_editor_isPlayer": false
+
+}

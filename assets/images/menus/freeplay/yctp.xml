@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TextureAtlas imagePath="yctp.png" width="2287" height="967">
+	<SubTexture name="YCTP0000" x="0" y="0" width="1139" height="966" frameX="-0" frameY="-0" frameWidth="1139" frameHeight="967"/>
+	<SubTexture name="YCTP0001" x="0" y="0" width="1139" height="966" frameX="-0" frameY="-0" frameWidth="1139" frameHeight="967"/>
+	<SubTexture name="YCTP0002" x="1149" y="0" width="1138" height="967" frameX="-0" frameY="-0" frameWidth="1139" frameHeight="967"/>
+	<SubTexture name="YCTP0003" x="1149" y="0" width="1138" height="967" frameX="-0" frameY="-0" frameWidth="1139" frameHeight="967"/>
+</TextureAtlas>

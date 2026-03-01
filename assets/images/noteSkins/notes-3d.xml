@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TextureAtlas imagePath="notes-3d.png" width="655" height="551">
+	<SubTexture name="down confirm0000" x="1" y="420" width="142" height="130" rotated="true" frameX="-16" frameY="-10" frameWidth="160" frameHeight="160"/>
+	<SubTexture name="down hold end0000" x="448" y="517" width="100" height="32" rotated="true" frameX="-0" frameY="-0" frameWidth="32" frameHeight="100"/>
+	<SubTexture name="down hold piece0000" x="553" y="517" width="100" height="32" rotated="true" frameX="-0" frameY="-0" frameWidth="32" frameHeight="100"/>
+	<SubTexture name="down miss0000" x="424" y="1" width="136" height="128" rotated="true" frameX="-16" frameY="-12" frameWidth="160" frameHeight="160"/>
+	<SubTexture name="down0000" x="1" y="1" width="132" height="142" frameX="-14" frameY="-10" frameWidth="160" frameHeight="160"/>
+	<SubTexture name="left confirm0000" x="1" y="285" width="144" height="130" frameX="-8" frameY="-16" frameWidth="160" frameHeight="160"/>
+	<SubTexture name="left hold end0000" x="591" y="392" width="32" height="100" frameX="-0" frameY="-0" frameWidth="32" frameHeight="100"/>
+	<SubTexture name="left hold piece0000" x="565" y="1" width="32" height="100" frameX="-0" frameY="-0" frameWidth="32" frameHeight="100"/>
+	<SubTexture name="left miss0000" x="448" y="267" width="140" height="120" frameX="-10" frameY="-20" frameWidth="160" frameHeight="160"/>
+	<SubTexture name="left0000" x="150" y="285" width="144" height="130" frameX="-8" frameY="-16" frameWidth="160" frameHeight="160"/>
+	<SubTexture name="right confirm0000" x="275" y="1" width="144" height="130" frameX="-8" frameY="-16" frameWidth="160" frameHeight="160"/>
+	<SubTexture name="right hold end0000" x="585" y="106" width="32" height="100" frameX="-0" frameY="-0" frameWidth="32" frameHeight="100"/>
+	<SubTexture name="right hold piece0000" x="602" y="1" width="32" height="100" frameX="-0" frameY="-0" frameWidth="32" frameHeight="100"/>
+	<SubTexture name="right miss0000" x="448" y="392" width="138" height="120" frameX="-12" frameY="-20" frameWidth="160" frameHeight="160"/>
+	<SubTexture name="right0000" x="295" y="136" width="144" height="130" frameX="-8" frameY="-16" frameWidth="160" frameHeight="160"/>
+	<SubTexture name="static down0000" x="138" y="1" width="132" height="142" frameX="-14" frameY="-10" frameWidth="160" frameHeight="160"/>
+	<SubTexture name="static left0000" x="299" y="271" width="144" height="130" frameX="-8" frameY="-16" frameWidth="160" frameHeight="160"/>
+	<SubTexture name="static right0000" x="299" y="406" width="144" height="130" frameX="-8" frameY="-16" frameWidth="160" frameHeight="160"/>
+	<SubTexture name="static up0000" x="1" y="148" width="142" height="132" rotated="true" frameX="-14" frameY="-10" frameWidth="160" frameHeight="160"/>
+	<SubTexture name="up confirm0000" x="148" y="420" width="142" height="130" rotated="true" frameX="-16" frameY="-10" frameWidth="160" frameHeight="160"/>
+	<SubTexture name="up hold end0000" x="593" y="211" width="32" height="100" frameX="-0" frameY="-0" frameWidth="32" frameHeight="100"/>
+	<SubTexture name="up hold piece0000" x="622" y="106" width="32" height="100" frameX="-0" frameY="-0" frameWidth="32" frameHeight="100"/>
+	<SubTexture name="up miss0000" x="444" y="134" width="136" height="128" rotated="true" frameX="-16" frameY="-12" frameWidth="160" frameHeight="160"/>
+	<SubTexture name="up0000" x="148" y="148" width="142" height="132" rotated="true" frameX="-14" frameY="-10" frameWidth="160" frameHeight="160"/>
+</TextureAtlas>

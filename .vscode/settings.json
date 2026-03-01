@@ -1,0 +1,46 @@
+{
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+
+    "files.associations": {
+        "*.hscript": "haxe",
+        "*.hxs": "haxe",
+        ".hxpkg": "json"
+    },
+    "lime.targetConfigurations": [
+        {
+            "label": "Windows (ASSET_REDIRECT)",
+            "target": "windows",
+            "args": [
+                "-DASSET_REDIRECT"
+            ]
+        },
+        {
+            "label": "Windows / Debug (ASSET_REDIRECT)",
+            "target": "windows",
+            "args": [
+                "-debug",
+                "-DASSET_REDIRECT"
+            ]
+        },
+        {
+            "label": "Windows / Debug (Tracy)",
+            "target": "windows",
+            "args": [
+                "-debug",
+                "-DFEATURE_DEBUG_TRACY"
+            ]
+        },
+    ],
+    "[haxe]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnSaveMode": "file",
+        "editor.formatOnPaste": false,
+        "editor.codeActionsOnSave": {
+            "source.sortImports": "never"
+        }
+    },
+
+    "json.format.keepLines": true
+}

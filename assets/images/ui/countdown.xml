@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TextureAtlas imagePath="intro.png" width="884" height="979">
+	<SubTexture name="three0000" x="375" y="704" width="396" height="119" frameX="-191" frameY="-324" frameWidth="768" frameHeight="768"/>
+	<SubTexture name="three0001" x="0" y="0" width="551" height="163" frameX="-128" frameY="-285" frameWidth="768" frameHeight="768"/>
+	<SubTexture name="three0002" x="0" y="381" width="500" height="152" frameX="-155" frameY="-296" frameWidth="768" frameHeight="768"/>
+	<SubTexture name="three0003" x="375" y="704" width="396" height="119" frameX="-191" frameY="-324" frameWidth="768" frameHeight="768"/>
+	<SubTexture name="two0000" x="0" y="737" width="301" height="115" frameX="-240" frameY="-328" frameWidth="768" frameHeight="768"/>
+	<SubTexture name="two0001" x="375" y="538" width="380" height="161" frameX="-199" frameY="-286" frameWidth="768" frameHeight="768"/>
+	<SubTexture name="two0002" x="505" y="384" width="362" height="148" frameX="-210" frameY="-295" frameWidth="768" frameHeight="768"/>
+	<SubTexture name="two0003" x="0" y="737" width="301" height="115" frameX="-240" frameY="-328" frameWidth="768" frameHeight="768"/>
+	<SubTexture name="one0000" x="306" y="828" width="274" height="125" frameX="-246" frameY="-318" frameWidth="768" frameHeight="768"/>
+	<SubTexture name="one0001" x="556" y="0" width="166" height="379" rotated="true" frameX="-202" frameY="-277" frameWidth="768" frameHeight="768"/>
+	<SubTexture name="one0002" x="727" y="0" width="157" height="348" rotated="true" frameX="-219" frameY="-286" frameWidth="768" frameHeight="768"/>
+	<SubTexture name="one0003" x="306" y="828" width="274" height="125" frameX="-246" frameY="-318" frameWidth="768" frameHeight="768"/>
+	<SubTexture name="go0000" x="0" y="857" width="252" height="122" frameX="-255" frameY="-321" frameWidth="768" frameHeight="768"/>
+	<SubTexture name="go0001" x="0" y="168" width="399" height="208" frameX="-201" frameY="-246" frameWidth="768" frameHeight="768"/>
+	<SubTexture name="go0002" x="0" y="538" width="370" height="194" frameX="-214" frameY="-258" frameWidth="768" frameHeight="768"/>
+	<SubTexture name="go0003" x="0" y="857" width="252" height="122" frameX="-255" frameY="-321" frameWidth="768" frameHeight="768"/>
+</TextureAtlas>

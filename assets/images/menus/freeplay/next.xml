@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TextureAtlas imagePath="next.png" width="365" height="69">
+	<SubTexture name="next0000" x="255" y="1" width="109" height="54" frameX="-8" frameY="-5" frameWidth="135" frameHeight="67"/>
+	<SubTexture name="next0001" x="255" y="1" width="109" height="54" frameX="-8" frameY="-5" frameWidth="135" frameHeight="67"/>
+	<SubTexture name="next0002" x="141" y="1" width="109" height="55" frameX="-8" frameY="-5" frameWidth="135" frameHeight="67"/>
+	<SubTexture name="next0003" x="141" y="1" width="109" height="55" frameX="-8" frameY="-5" frameWidth="135" frameHeight="67"/>
+	<SubTexture name="nextclick0000" x="1" y="1" width="135" height="67" frameX="-0" frameY="-0" frameWidth="135" frameHeight="67"/>
+</TextureAtlas>

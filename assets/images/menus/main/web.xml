@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TextureAtlas imagePath="web.png" width="408" height="622">
+	<SubTexture name="web0000" x="1" y="433" width="387" height="188" frameX="-0" frameY="-0" frameWidth="387" frameHeight="188"/>
+	<SubTexture name="webhovered0000" x="1" y="1" width="406" height="211" frameX="-0" frameY="-0" frameWidth="406" frameHeight="211"/>
+	<SubTexture name="webhovered0001" x="1" y="217" width="406" height="211" frameX="-0" frameY="-0" frameWidth="406" frameHeight="211"/>
+</TextureAtlas>

@@ -1,0 +1,399 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": ".export/idle baldi",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle-mad",
+			"fps": 24,
+			"name": ".export/idle baldi upset",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				25,
+				16
+			],
+			"anim": "basics",
+			"fps": 24,
+			"name": ".export/basics",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				24,
+				8
+			],
+			"anim": "lesson-bad",
+			"fps": 24,
+			"name": ".export/lesson bad",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				18,
+				16
+			],
+			"anim": "lesson-good",
+			"fps": 24,
+			"name": ".export/lesson good",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-3,
+				0
+			],
+			"anim": "zero",
+			"fps": 24,
+			"name": ".export/zero",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-3,
+				0
+			],
+			"anim": "zero-mad",
+			"fps": 24,
+			"name": ".export/zero upset",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				1,
+				0
+			],
+			"anim": "one",
+			"fps": 24,
+			"name": ".export/one",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				1,
+				0
+			],
+			"anim": "one-mad",
+			"fps": 24,
+			"name": ".export/one upset",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-1,
+				7
+			],
+			"anim": "two",
+			"fps": 24,
+			"name": ".export/two",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-1,
+				7
+			],
+			"anim": "two-mad",
+			"fps": 24,
+			"name": ".export/two upset",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-3,
+				5
+			],
+			"anim": "four",
+			"fps": 24,
+			"name": ".export/four",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-3,
+				5
+			],
+			"anim": "four-mad",
+			"fps": 24,
+			"name": ".export/four upset",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-1,
+				2
+			],
+			"anim": "five",
+			"fps": 24,
+			"name": ".export/five",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-1,
+				2
+			],
+			"anim": "five-mad",
+			"fps": 24,
+			"name": ".export/five upset",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-2,
+				2
+			],
+			"anim": "six",
+			"fps": 24,
+			"name": ".export/six",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-2,
+				2
+			],
+			"anim": "six-mad",
+			"fps": 24,
+			"name": ".export/six upset",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-1,
+				7
+			],
+			"anim": "seven",
+			"fps": 24,
+			"name": ".export/seven",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-1,
+				7
+			],
+			"anim": "seven-mad",
+			"fps": 24,
+			"name": ".export/seven upset",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-1,
+				1
+			],
+			"anim": "eight",
+			"fps": 24,
+			"name": ".export/eight",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-1,
+				1
+			],
+			"anim": "eight-mad",
+			"fps": 24,
+			"name": ".export/eight upset",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-4,
+				3
+			],
+			"anim": "nine",
+			"fps": 24,
+			"name": ".export/nine",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-4,
+				3
+			],
+			"anim": "nine-mad",
+			"fps": 24,
+			"name": ".export/nine upset",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-3,
+				3
+			],
+			"anim": "plus",
+			"fps": 24,
+			"name": ".export/plus",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-3,
+				3
+			],
+			"anim": "plus-mad",
+			"fps": 24,
+			"name": ".export/plus upset",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-3,
+				3
+			],
+			"anim": "minus",
+			"fps": 24,
+			"name": ".export/minus",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-3,
+				3
+			],
+			"anim": "minus-mad",
+			"fps": 24,
+			"name": ".export/upset minus",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-3,
+				6
+			],
+			"anim": "equals",
+			"fps": 24,
+			"name": ".export/equals",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-3,
+				6
+			],
+			"anim": "equals-mad",
+			"fps": 24,
+			"name": ".export/equals upset",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				4
+			],
+			"anim": "failed",
+			"fps": 24,
+			"name": ".export/angry baldi",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				5,
+				0
+			],
+			"anim": "three-mad",
+			"fps": 24,
+			"name": ".export/three upset",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				5,
+				0
+			],
+			"anim": "three",
+			"fps": 24,
+			"name": ".export/three",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-1,
+				6
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "times",
+			"loop": false,
+			"name": ".export/times"
+		},
+		{
+			"offsets": [
+				-1,
+				6
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "times-mad",
+			"loop": false,
+			"name": ".export/times upset"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "mechanics/thinkpad/mathAtlas",
+	"position": [
+		335,
+		450
+	],
+	"pauseDuringSustains": true,
+	"healthicon": "baldi",
+	"flip_x": false,
+	"healthbar_colors": [
+		10,
+		239,
+		25
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 0.325,
+	"_editor_isPlayer": false
+}

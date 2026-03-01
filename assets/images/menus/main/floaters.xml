@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TextureAtlas imagePath="floaters.png" width="1294" height="1059">
+	<SubTexture name="equals0000" x="1138" y="743" width="155" height="129" frameX="-0" frameY="-0" frameWidth="155" frameHeight="129"/>
+	<SubTexture name="equals0001" x="1138" y="743" width="155" height="129" frameX="-0" frameY="-0" frameWidth="155" frameHeight="129"/>
+	<SubTexture name="equals0002" x="1138" y="877" width="155" height="129" frameX="-0" frameY="-0" frameWidth="155" frameHeight="129"/>
+	<SubTexture name="equals0003" x="1138" y="877" width="155" height="129" frameX="-0" frameY="-0" frameWidth="155" frameHeight="129"/>
+	<SubTexture name="equals0004" x="778" y="743" width="155" height="129" frameX="-0" frameY="-0" frameWidth="155" frameHeight="129"/>
+	<SubTexture name="equals0005" x="778" y="743" width="155" height="129" frameX="-0" frameY="-0" frameWidth="155" frameHeight="129"/>
+	<SubTexture name="historicality0000" x="1" y="1" width="694" height="201" frameX="-0" frameY="-0" frameWidth="695" frameHeight="201"/>
+	<SubTexture name="historicality0001" x="1" y="1" width="694" height="201" frameX="-0" frameY="-0" frameWidth="695" frameHeight="201"/>
+	<SubTexture name="historicality0002" x="1" y="207" width="694" height="201" frameX="-0" frameY="-0" frameWidth="695" frameHeight="201"/>
+	<SubTexture name="historicality0003" x="1" y="207" width="694" height="201" frameX="-0" frameY="-0" frameWidth="695" frameHeight="201"/>
+	<SubTexture name="historicality0004" x="1" y="413" width="694" height="201" frameX="-0" frameY="-0" frameWidth="695" frameHeight="201"/>
+	<SubTexture name="historicality0005" x="1" y="413" width="694" height="201" frameX="-0" frameY="-0" frameWidth="695" frameHeight="201"/>
+	<SubTexture name="minus0000" x="938" y="743" width="179" height="95" frameX="-0" frameY="-0" frameWidth="179" frameHeight="95"/>
+	<SubTexture name="minus0001" x="938" y="743" width="179" height="95" frameX="-0" frameY="-0" frameWidth="179" frameHeight="95"/>
+	<SubTexture name="minus0002" x="1052" y="194" width="179" height="95" frameX="-0" frameY="-0" frameWidth="179" frameHeight="95"/>
+	<SubTexture name="minus0003" x="1052" y="194" width="179" height="95" frameX="-0" frameY="-0" frameWidth="179" frameHeight="95"/>
+	<SubTexture name="minus0004" x="1052" y="294" width="179" height="95" frameX="-0" frameY="-0" frameWidth="179" frameHeight="95"/>
+	<SubTexture name="minus0005" x="1052" y="294" width="179" height="95" frameX="-0" frameY="-0" frameWidth="179" frameHeight="95"/>
+	<SubTexture name="numbers0000" x="1" y="619" width="254" height="261" frameX="-0" frameY="-1" frameWidth="254" frameHeight="262"/>
+	<SubTexture name="numbers0001" x="1" y="619" width="254" height="261" frameX="-0" frameY="-1" frameWidth="254" frameHeight="262"/>
+	<SubTexture name="numbers0002" x="260" y="619" width="254" height="261" frameX="-0" frameY="-1" frameWidth="254" frameHeight="262"/>
+	<SubTexture name="numbers0003" x="260" y="619" width="254" height="261" frameX="-0" frameY="-1" frameWidth="254" frameHeight="262"/>
+	<SubTexture name="numbers0004" x="519" y="619" width="254" height="261" frameX="-0" frameY="-1" frameWidth="254" frameHeight="262"/>
+	<SubTexture name="numbers0005" x="519" y="619" width="254" height="261" frameX="-0" frameY="-1" frameWidth="254" frameHeight="262"/>
+	<SubTexture name="plus0000" x="778" y="550" width="200" height="188" frameX="-0" frameY="-0" frameWidth="201" frameHeight="188"/>
+	<SubTexture name="plus0001" x="778" y="550" width="200" height="188" frameX="-0" frameY="-0" frameWidth="201" frameHeight="188"/>
+	<SubTexture name="plus0002" x="983" y="550" width="200" height="188" frameX="-0" frameY="-0" frameWidth="201" frameHeight="188"/>
+	<SubTexture name="plus0003" x="983" y="550" width="200" height="188" frameX="-0" frameY="-0" frameWidth="201" frameHeight="188"/>
+	<SubTexture name="plus0004" x="1052" y="1" width="200" height="188" frameX="-0" frameY="-0" frameWidth="201" frameHeight="188"/>
+	<SubTexture name="plus0005" x="1052" y="1" width="200" height="188" frameX="-0" frameY="-0" frameWidth="201" frameHeight="188"/>
+	<SubTexture name="singing what0000" x="700" y="1" width="347" height="178" frameX="-0" frameY="-0" frameWidth="347" frameHeight="178"/>
+	<SubTexture name="singing what0001" x="700" y="1" width="347" height="178" frameX="-0" frameY="-0" frameWidth="347" frameHeight="178"/>
+	<SubTexture name="singing what0002" x="700" y="184" width="347" height="178" frameX="-0" frameY="-0" frameWidth="347" frameHeight="178"/>
+	<SubTexture name="singing what0003" x="700" y="184" width="347" height="178" frameX="-0" frameY="-0" frameWidth="347" frameHeight="178"/>
+	<SubTexture name="singing what0004" x="700" y="367" width="347" height="178" frameX="-0" frameY="-0" frameWidth="347" frameHeight="178"/>
+	<SubTexture name="singing what0005" x="700" y="367" width="347" height="178" frameX="-0" frameY="-0" frameWidth="347" frameHeight="178"/>
+	<SubTexture name="wow0000" x="1" y="885" width="374" height="173" frameX="-0" frameY="-0" frameWidth="374" frameHeight="173"/>
+	<SubTexture name="wow0001" x="1" y="885" width="374" height="173" frameX="-0" frameY="-0" frameWidth="374" frameHeight="173"/>
+	<SubTexture name="wow0002" x="380" y="885" width="374" height="173" frameX="-0" frameY="-0" frameWidth="374" frameHeight="173"/>
+	<SubTexture name="wow0003" x="380" y="885" width="374" height="173" frameX="-0" frameY="-0" frameWidth="374" frameHeight="173"/>
+	<SubTexture name="wow0004" x="759" y="885" width="374" height="173" frameX="-0" frameY="-0" frameWidth="374" frameHeight="173"/>
+	<SubTexture name="wow0005" x="759" y="885" width="374" height="173" frameX="-0" frameY="-0" frameWidth="374" frameHeight="173"/>
+</TextureAtlas>

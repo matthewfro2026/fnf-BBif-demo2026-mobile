@@ -1,0 +1,146 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "BF_DOWN"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "BF_UP"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "LEFT_MISS"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "DOWN_MISS"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "RIGHT_MISS"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "BF_RIGHT"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "UP_MISS"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "danceLeft",
+			"indices": [],
+			"name": "BF_IDLE_0"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "danceRight",
+			"indices": [],
+			"name": "BF_IDLE_1"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "BF_LEFT",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "dead",
+			"loop": false,
+			"name": "dead"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/bf/BF_3D_NEW",
+	"position": [
+		190,
+		550
+	],
+	"pauseDuringSustains": true,
+	"healthicon": "3dbf",
+	"flip_x": true,
+	"healthbar_colors": [
+		10,
+		239,
+		25
+	],
+	"camera_position": [
+		560,
+		-390
+	],
+	"sing_duration": 6.1,
+	"scale": 0.6,
+	"_editor_isPlayer": true
+}

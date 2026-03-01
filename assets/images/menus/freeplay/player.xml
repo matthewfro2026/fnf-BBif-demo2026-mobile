@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TextureAtlas imagePath="player.png" width="1059" height="3339">
+	<SubTexture name="notplaying0000" x="0" y="0" width="1059" height="363" frameX="-0" frameY="-0" frameWidth="1059" frameHeight="363"/>
+	<SubTexture name="nowplaying0000" x="0" y="373" width="1059" height="363" frameX="-0" frameY="-1" frameWidth="1059" frameHeight="364"/>
+	<SubTexture name="nowplaying0001" x="0" y="373" width="1059" height="363" frameX="-0" frameY="-1" frameWidth="1059" frameHeight="364"/>
+	<SubTexture name="nowplaying0002" x="0" y="1865" width="1059" height="361" frameX="-0" frameY="-2" frameWidth="1059" frameHeight="364"/>
+	<SubTexture name="nowplaying0003" x="0" y="2236" width="1059" height="361" frameX="-0" frameY="-2" frameWidth="1059" frameHeight="364"/>
+	<SubTexture name="nowplaying0004" x="0" y="746" width="1059" height="363" frameX="-0" frameY="-1" frameWidth="1059" frameHeight="364"/>
+	<SubTexture name="nowplaying0005" x="0" y="746" width="1059" height="363" frameX="-0" frameY="-1" frameWidth="1059" frameHeight="364"/>
+	<SubTexture name="nowplaying0006" x="0" y="2607" width="1059" height="361" frameX="-0" frameY="-2" frameWidth="1059" frameHeight="364"/>
+	<SubTexture name="nowplaying0007" x="0" y="2607" width="1059" height="361" frameX="-0" frameY="-2" frameWidth="1059" frameHeight="364"/>
+	<SubTexture name="nowplaying0008" x="0" y="1119" width="1059" height="363" frameX="-0" frameY="-1" frameWidth="1059" frameHeight="364"/>
+	<SubTexture name="nowplaying0009" x="0" y="1492" width="1059" height="363" frameX="-0" frameY="-1" frameWidth="1059" frameHeight="364"/>
+	<SubTexture name="nowplaying0010" x="0" y="2978" width="1059" height="361" frameX="-0" frameY="-2" frameWidth="1059" frameHeight="364"/>
+	<SubTexture name="nowplaying0011" x="0" y="2978" width="1059" height="361" frameX="-0" frameY="-2" frameWidth="1059" frameHeight="364"/>
+	<SubTexture name="nowplaying0012" x="0" y="373" width="1059" height="363" frameX="-0" frameY="-1" frameWidth="1059" frameHeight="364"/>
+	<SubTexture name="nowplaying0013" x="0" y="373" width="1059" height="363" frameX="-0" frameY="-1" frameWidth="1059" frameHeight="364"/>
+	<SubTexture name="nowplaying0014" x="0" y="1865" width="1059" height="361" frameX="-0" frameY="-2" frameWidth="1059" frameHeight="364"/>
+	<SubTexture name="nowplaying0015" x="0" y="2236" width="1059" height="361" frameX="-0" frameY="-2" frameWidth="1059" frameHeight="364"/>
+	<SubTexture name="nowplaying0016" x="0" y="746" width="1059" height="363" frameX="-0" frameY="-1" frameWidth="1059" frameHeight="364"/>
+</TextureAtlas>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TextureAtlas imagePath="assets.png" width="6289" height="1080">
+	<SubTexture name="door0000" x="5138" y="0" width="578" height="1079" frameX="-0" frameY="-0" frameWidth="578" frameHeight="1079"/>
+	<SubTexture name="doorFrame0000" x="3860" y="0" width="1268" height="1080" frameX="-355" frameY="-0" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="doorbg0000" x="0" y="0" width="1920" height="1080" frameX="-0" frameY="-0" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="gear0000" x="5726" y="0" width="563" height="561" frameX="-7" frameY="-7" frameWidth="577" frameHeight="575"/>
+	<SubTexture name="multiply0000" x="1930" y="0" width="1920" height="1080" frameX="-0" frameY="-0" frameWidth="1920" frameHeight="1080"/>
+</TextureAtlas>

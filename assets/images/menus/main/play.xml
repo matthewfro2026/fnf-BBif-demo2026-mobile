@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TextureAtlas imagePath="play.png" width="161" height="298">
+	<SubTexture name="play0000" x="1" y="212" width="157" height="85" frameX="-0" frameY="-0" frameWidth="157" frameHeight="85"/>
+	<SubTexture name="playhovered0000" x="1" y="1" width="159" height="101" frameX="-0" frameY="-0" frameWidth="159" frameHeight="101"/>
+	<SubTexture name="playhovered0001" x="1" y="107" width="159" height="100" frameX="-0" frameY="-0" frameWidth="159" frameHeight="101"/>
+</TextureAtlas>

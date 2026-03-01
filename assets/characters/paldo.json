@@ -1,0 +1,172 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				691,
+				17
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "base/poses/left"
+		},
+		{
+			"offsets": [
+				40,
+				-163
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "base/poses/down"
+		},
+		{
+			"offsets": [
+				195,
+				260
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "base/poses/up"
+		},
+		{
+			"offsets": [
+				-130,
+				-93
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "base/poses/right"
+		},
+		{
+			"offsets": [
+				14,
+				-10
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT-blue",
+			"indices": [],
+			"name": "blue/poses/left"
+		},
+		{
+			"offsets": [
+				-128,
+				-107
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN-blue",
+			"indices": [],
+			"name": "blue/poses/down"
+		},
+		{
+			"offsets": [
+				-156,
+				213
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP-blue",
+			"indices": [],
+			"name": "blue/poses/up"
+		},
+		{
+			"offsets": [
+				-52,
+				61
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT-blue",
+			"indices": [],
+			"name": "blue/poses/right"
+		},
+		{
+			"offsets": [
+				-152,
+				82
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle-blue",
+			"indices": [],
+			"name": "blue/poses/idle"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11
+			],
+			"fps": 24,
+			"anim": "danceLeft",
+			"loop": false,
+			"name": "base/poses/danceLeft"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23
+			],
+			"fps": 24,
+			"anim": "danceRight",
+			"loop": false,
+			"name": "base/poses/danceLeft"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/paldo/paldoAtlas",
+	"position": [
+		90,
+		80
+	],
+	"pauseDuringSustains": false,
+	"healthicon": "paldo",
+	"flip_x": false,
+	"healthbar_colors": [
+		161,
+		161,
+		161
+	],
+	"camera_position": [
+		600,
+		190
+	],
+	"sing_duration": 6.1,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

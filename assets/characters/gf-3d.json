@@ -1,0 +1,36 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-477,
+				-307
+			],
+			"indices": [],
+			"fps": 4,
+			"anim": "idle",
+			"loop": true,
+			"name": "SUPERGF SUPER"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/gf/threed",
+	"position": [
+		0,
+		0
+	],
+	"pauseDuringSustains": true,
+	"healthicon": "face",
+	"flip_x": false,
+	"healthbar_colors": [
+		161,
+		161,
+		161
+	],
+	"camera_position": [
+		70,
+		20
+	],
+	"sing_duration": 4,
+	"scale": 0.75,
+	"_editor_isPlayer": false
+}

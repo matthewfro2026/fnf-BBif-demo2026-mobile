@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="styleMenu.png" width="1027" height="834">
+	<SubTexture name="free0000" x="1" y="439" width="510" height="394" frameX="-12" frameY="-0" frameWidth="525" frameHeight="402"/>
+	<SubTexture name="free-hover0000" x="1" y="1" width="512" height="433" frameX="-12" frameY="-0" frameWidth="535" frameHeight="440"/>
+	<SubTexture name="story0000" x="518" y="416" width="508" height="401" frameX="-0" frameY="-0" frameWidth="537" frameHeight="414"/>
+	<SubTexture name="story-hover0000" x="518" y="1" width="508" height="410" frameX="-0" frameY="-0" frameWidth="537" frameHeight="418"/>
+</TextureAtlas>
