@@ -142,6 +142,30 @@ class LessonPopUp extends MusicBeatSubstate
 					
 					// curSel = 1;
 				}
+				if (curSel != -1 && (FlxG.mouse.justPressed && (mouseOver(goodMix) || mouseOver(badMix))))
+				{
+					canInteract = false;
+					@:privateAccess
+					(cast FlxG.state : FreeplayState).loadSong('lesson' + (curSel == 0 ? '-good' : ''), false);
+					
+					CoolUtil.playUISound('freeplay/ding goodiebag rizz at the wawa');
+					
+					FlxG.sound.music.fadeOut(1.2);
+					
+					snd?.fadeOut(0.6);
+					
+					@:privateAccess
+					{
+						FlxTween.tween((cast FlxG.state : FreeplayState).ditherShader, {transparency: -1}, 0.4);
+						
+						FlxG.camera._fxFadeColor = FlxColor.BLACK;
+						FlxTween.tween(FlxG.camera, {_fxFadeAlpha: 1}, 0.9,
+							{
+								startDelay: 0.2,
+								onComplete: Void -> CoolUtil.switchStateAndStopMusic(() -> new PlayState())
+							});
+					}
+				}
 			}
 			else if (controls.UI_DOWN_P || controls.UI_UP_P || controls.UI_LEFT_P || controls.UI_RIGHT_P)
 			{
@@ -149,7 +173,7 @@ class LessonPopUp extends MusicBeatSubstate
 				
 				playSound(curSel == 0);
 			}
-			else if (curSel != -1 && (controls.ACCEPT #if mobile || virtualPad.buttonA.justPressed #end || (FlxG.mouse.justPressed && (mouseOver(goodMix) || mouseOver(badMix)))))
+			else if (curSel != -1 && (controls.ACCEPT || (FlxG.mouse.justPressed && (mouseOver(goodMix) || mouseOver(badMix)))))
 			{
 				canInteract = false;
 				@:privateAccess
