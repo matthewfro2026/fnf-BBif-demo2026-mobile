@@ -618,6 +618,11 @@ class PlayState extends MusicBeatState
 		
 		startingSong = true;
 		
+		#if mobile
+		 addMobileControls(false);
+	     hitbox.visible = false;
+		#end
+		
 		#if HSCRIPT_ALLOWED
 		for (notetype in noteTypes)
 			startHScriptsNamed('custom_notetypes/' + notetype + '.hx');
@@ -1013,6 +1018,9 @@ class PlayState extends MusicBeatState
 		
 		seenCutscene = true;
 		inCutscene = false;
+		#if mobile
+		hitbox.visible = true;
+		#end
 		var ret:Dynamic = callOnScripts('onStartCountdown', null, true);
 		if (ret != Constants.SCRIPT_STOP)
 		{
@@ -2649,6 +2657,10 @@ class PlayState extends MusicBeatState
 		
 		deathCounter = 0;
 		seenCutscene = false;
+		
+		#if mobile
+		hitbox.visible = false;
+		#end
 		
 		#if ACHIEVEMENTS_ALLOWED
 		var weekNoMiss:String = WeekData.getWeekFileName() + '_nomiss';
