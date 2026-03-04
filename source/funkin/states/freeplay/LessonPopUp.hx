@@ -159,8 +159,7 @@ class LessonPopUp extends MusicBeatSubstate
 							});
 					}
 				}
-				@:privateAccess
-				else if (controls.BACK #if mobile || (cast FlxG.state : FreeplayState).virtualPad.buttonA.justPressed #end)
+				else if (controls.BACK #if mobile || getFreeplayState().virtualPad.buttonB.justPressed #end)
 				{
 					canInteract = false;
 					transitionOut();
@@ -196,7 +195,7 @@ class LessonPopUp extends MusicBeatSubstate
 						});
 				}
 			}
-			else if (controls.BACK #if mobile || virtualPad.buttonA.justPressed #end || FlxG.mouse.justPressedRight)
+			else if (controls.BACK || FlxG.mouse.justPressedRight)
 			{
 				canInteract = false;
 				transitionOut();
@@ -219,6 +218,11 @@ class LessonPopUp extends MusicBeatSubstate
 		lerpShaders(1 - Math.exp(-elapsed * 8));
 		
 		mousePos = MousePlugin.instance.getRawPosition(mousePos);
+	}
+	
+	public static function getFreeplayState():FreeplayState
+	{
+		return cast(FlxG.state, FreeplayState);
 	}
 	
 	inline function changeSel(newSel:Int)
