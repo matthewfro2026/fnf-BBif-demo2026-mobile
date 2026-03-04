@@ -5,7 +5,6 @@ import funkin.plugins.MousePlugin;
 import flixel.graphics.tile.FlxGraphicsShader;
 
 import funkin.shaders.ChalkShader;
-
 class PlayMenuState extends MusicBeatState
 {
 	static var curSelected:Int = 0;
