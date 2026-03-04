@@ -14,8 +14,11 @@ import mobile.controls.MobileVirtualPad;
 
 class MusicBeatState extends FlxUIState
 {
+    public static var instance:MusicBeatState;
+    
 	public function new()
 	{
+		instance = this;
 		super();
 	}
 	
