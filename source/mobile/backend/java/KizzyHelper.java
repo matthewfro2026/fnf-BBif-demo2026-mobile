@@ -1,4 +1,4 @@
-package mobile.backend.java;
+package arkoselabs.utils;
 
 import android.app.Notification;
 import android.app.NotificationChannel;

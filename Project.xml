@@ -76,7 +76,9 @@
 
 	<haxelib name="linc_luajit" if="LUA_ALLOWED"/>
 	<haxelib name="hxvlc" if="VIDEOS_ALLOWED"/>
-	<haxelib name="hxdiscord_rpc" if="DISCORD_ALLOWED"/>
+	<section if="desktop">
+		<haxelib name="hxdiscord_rpc" if="DISCORD_ALLOWED" />
+	</section>
 	<haxelib name="hscript-iris" if="HSCRIPT_ALLOWED"/>
 	<haxelib name="flixel-animate"/>
 
@@ -159,17 +161,17 @@
 	
 	<!-- Mobile Shit -->
     <section if="android">
-	<config:android permission="android.permission.VIBRATE" />
-	<config:android permission="android.permission.CAPTURE_AUDIO_OUTPUT" />
-	<android target-sdk-version="34" />
-	<android min-sdk-version="19" />
-	<certificate path="key.keystore" password="psychport" alias="psychport" alias-password="psychport" unless="test" />
+		<config:android permission="android.permission.VIBRATE" />
+		<config:android permission="android.permission.CAPTURE_AUDIO_OUTPUT" />
+		<android target-sdk-version="34" />
+		<android min-sdk-version="19" />
+		<certificate path="key.keystore" password="psychport" alias="psychport" alias-password="psychport" unless="test" />
     </section>
     
     <!-- IOS stuff -->
     <section if="ios">
-	<config:ios category_type="public.app-category.music-games" />
-	<config:mac category_type="public.app-category.music-games" />
+		<config:ios category_type="public.app-category.music-games" />
+		<config:mac category_type="public.app-category.music-games" />
 	</section>
 	
 	<!--Used for Izzy Engine's crash handler-->
@@ -178,6 +180,10 @@
 	<haxedef name="HXCPP_STACK_TRACE" if="CRASH_HANDLER" />
 
 	<!-- _________________________________ Custom _______________________________ -->
+		
+	<!-- Basic Support For Kizzy -->
+	<java path="source/mobile/backend/java/" if="android" />
+	<java path="mobile/backend/java/" if="android" />
 
 	<!--Place custom nodes like icons here (higher priority to override the HaxeFlixel icon)-->
 	<assets path='art/iconOG.png' rename='icon.png' if="linux" />
