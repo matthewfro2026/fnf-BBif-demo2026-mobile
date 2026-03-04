@@ -103,6 +103,9 @@ class FPSCounter extends Sprite
 		}
 		
 		currentFPS = times.length < FlxG.updateFramerate ? times.length : FlxG.updateFramerate;
+		#if mobile
+		setScale();
+		#end
 		updateText();
 		
 		deltaTimeout = 0.0;
@@ -118,6 +121,24 @@ class FPSCounter extends Sprite
 		final tex = 'FPS: ${currentFPS} • Memory: ${flixel.util.FlxStringUtil.formatBytes(memoryMegas)}';
 		if (textDisplay.text != tex) textDisplay.text = tex;
 	}
+	
+	#if mobile
+	public inline function setScale(?scale:Float):Void {
+	    if (scale == null) {
+	        var screenW:Float = FlxG.stage.window.width;
+	        var screenH:Float = FlxG.stage.window.height;
+	        scale = Math.min(screenW / FlxG.width, screenH / FlxG.height);
+	    }
+	
+	    #if android
+	        var finalScale:Float = (scale > 1) ? scale : 1;
+	    #else
+	        var finalScale:Float = (scale < 1 ? scale : 1);
+	    #end
+	
+	    scaleX = scaleY = finalScale;
+	}
+	#end
 	
 	inline function get_memoryMegas():Float
 	{

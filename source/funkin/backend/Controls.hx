@@ -4,6 +4,9 @@ import flixel.input.gamepad.FlxGamepadButton;
 import flixel.input.gamepad.FlxGamepadInputID;
 import flixel.input.gamepad.mappings.FlxGamepadMapping;
 import flixel.input.keyboard.FlxKey;
+#if mobile
+import mobile.flixel.input.FlxMobileInputID;
+#end
 
 class Controls
 {
@@ -109,6 +112,7 @@ class Controls
 	// Gamepad & Keyboard stuff
 	public var keyboardBinds:Map<String, Array<FlxKey>>;
 	public var gamepadBinds:Map<String, Array<FlxGamepadInputID>>;
+	public var mobileBinds:Map<String, Array<FlxMobileInputID>>;
 	
 	public function justPressed(key:String)
 	{
@@ -184,6 +188,103 @@ class Controls
 		return false;
 	}
 	
+	public var isInSubstate:Bool = false;
+	public var requested(get, default):Dynamic; // is set to MusicBeatState or MusicBeatSubstate when the constructor is called
+	public var gameplayRequest(get, default):Dynamic; // for PlayState and EditorPlayState (hitbox and virtualPad)
+	
+	private function mobilePadPressed(keys:Array<FlxMobileInputID>):Bool
+	{
+		if (keys != null && requested.virtualPad != null)
+		{
+			if (requested.virtualPad.anyPressed(keys) == true)
+			{
+				controllerMode = true; // !!DO NOT DISABLE THIS IF YOU DONT WANT TO KILL THE INPUT FOR MOBILE!!
+				return true;
+			}
+		}
+		return false;
+	}
+	
+	private function mobilePadJustPressed(keys:Array<FlxMobileInputID>):Bool
+	{
+		if (keys != null && requested.virtualPad != null)
+		{
+			if (requested.virtualPad.anyJustPressed(keys) == true)
+			{
+				controllerMode = true;
+				return true;
+			}
+		}
+		return false;
+	}
+	
+	private function mobilePadJustReleased(keys:Array<FlxMobileInputID>):Bool
+	{
+		if (keys != null && requested.virtualPad != null)
+		{
+			if (requested.virtualPad.anyJustReleased(keys) == true)
+			{
+				controllerMode = true;
+				return true;
+			}
+		}
+		return false;
+	}
+	
+	private function hitboxPressed(keys:Array<FlxMobileInputID>):Bool
+	{
+		if (keys != null && requested.hitbox != null && gameplayRequest != null)
+		{
+			if (gameplayRequest.anyPressed(keys))
+			{
+				controllerMode = true;
+				return true;
+			}
+		}
+		return false;
+	}
+	
+	private function hitboxJustPressed(keys:Array<FlxMobileInputID>):Bool
+	{
+		if (keys != null && requested.hitbox != null && gameplayRequest != null)
+		{
+			if (gameplayRequest.anyJustPressed(keys))
+			{
+				controllerMode = true;
+				return true;
+			}
+		}
+		return false;
+	}
+	
+	private function hitboxJustReleased(keys:Array<FlxMobileInputID>):Bool
+	{
+		if (keys != null && requested.hitbox != null && gameplayRequest != null)
+		{
+			if (gameplayRequest.anyJustReleased(keys))
+			{
+				controllerMode = true;
+				return true;
+			}
+		}
+		return false;
+	}
+	
+	@:noCompletion
+	private function get_requested():Dynamic
+	{	
+		if (isInSubstate)
+			return MusicBeatSubstate.instance;
+        else
+			return MusicBeatState.instance;
+	}
+	
+	@:noCompletion
+	private function get_gameplayRequest():Dynamic
+	{
+			return MusicBeatState.instance.hitbox;
+	}
+	
 	// IGNORE THESE
 	public static var instance:Controls;
 	
@@ -191,5 +292,6 @@ class Controls
 	{
 		keyboardBinds = ClientPrefs.keyBinds;
 		gamepadBinds = ClientPrefs.gamepadBinds;
+		mobileBinds = ClientPrefs.mobileBinds;
 	}
 }

@@ -21,6 +21,8 @@ jobs:
          haxelib install hxpkg --global
          haxelib run hxpkg setup --global
          haxelib run hxpkg install
+         haxelib remove lime
+         haxelib git lime https://github.com/FunkinCrew/lime mobile/main --quiet
       - name: Compile
         run: haxelib run lime build ios -nosign
 
