@@ -179,7 +179,7 @@ class BaseOptionsMenu extends MusicBeatSubstate
 			changeSelection(1);
 		}
 		
-		if (controls.BACK #if (desktop || linux) || FlxG.mouse.justPressedRight #end)
+		if (controls.BACK #if (desktop) || FlxG.mouse.justPressedRight #end)
 		{
 			close();
 			FlxG.sound.play(Paths.sound('cancelMenu'));
@@ -189,7 +189,7 @@ class BaseOptionsMenu extends MusicBeatSubstate
 		{
 			if (curOption.type == 'bool')
 			{
-				if (controls.ACCEPT #if (desktop || linux) || FlxG.mouse.justPressed #end)
+				if (controls.ACCEPT #if (desktop) || FlxG.mouse.justPressed #end)
 				{
 					FlxG.sound.play(Paths.sound('scrollMenu'));
 					curOption.setValue((curOption.getValue() == true) ? false : true);
@@ -201,7 +201,7 @@ class BaseOptionsMenu extends MusicBeatSubstate
 			{
 				if (curOption.type == 'keybind')
 				{
-					if (controls.ACCEPT #if (desktop || linux) || FlxG.mouse.justPressed #end)
+					if (controls.ACCEPT #if (desktop) || FlxG.mouse.justPressed #end)
 					{
 						bindingBlack = new FlxSprite().makeGraphic(1, 1, FlxColor.WHITE);
 						bindingBlack.scale.set(FlxG.width, FlxG.height);
@@ -226,7 +226,7 @@ class BaseOptionsMenu extends MusicBeatSubstate
 				}
 				else if (controls.UI_LEFT || controls.UI_RIGHT || FlxG.mouse.pressed)
 				{
-					var pressed = (controls.UI_LEFT_P || controls.UI_RIGHT_P || FlxG.mouse.pressed);
+					var pressed = (controls.UI_LEFT_P || controls.UI_RIGHT_P #if desktop || FlxG.mouse.pressed #end);
 					if (holdTime > 0.5 || pressed)
 					{
 						if (pressed)
@@ -299,7 +299,7 @@ class BaseOptionsMenu extends MusicBeatSubstate
 					
 					if (curOption.type != 'string') holdTime += elapsed;
 				}
-				else if (controls.UI_LEFT_R || controls.UI_RIGHT_R || FlxG.mouse.justReleased)
+				else if (controls.UI_LEFT_R || controls.UI_RIGHT_R #if desktop || FlxG.mouse.justReleased #end)
 				{
 					if (holdTime > 0.5) FlxG.sound.play(Paths.sound('scrollMenu'));
 					holdTime = 0;

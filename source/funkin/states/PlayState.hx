@@ -202,6 +202,7 @@ class PlayState extends MusicBeatState
 	public var camGame:FlxCamera;
 	public var camOther:FlxCamera;
 	public var camSubtitles:FlxCamera;
+	public var camPause:FlxCamera;
 	public var cameraSpeed:Float = 1;
 	
 	public var songScore:Int = 0;
@@ -340,14 +341,17 @@ class PlayState extends MusicBeatState
 		camHUD = CoolUtil.createPaddedCamera();
 		camOther = CoolUtil.createPaddedCamera();
 		camSubtitles = CoolUtil.createPaddedCamera();
+		camPause = CoolUtil.createPaddedCamera();
 		
 		camHUD.bgColor = 0x0;
 		camOther.bgColor = 0x0;
 		camSubtitles.bgColor = 0x0;
+		camPause.bgColor = 0x0;
 		
 		FlxG.cameras.add(camHUD, false);
 		FlxG.cameras.add(camOther, false);
 		FlxG.cameras.add(camSubtitles, false);
+		FlxG.cameras.add(camPause, false);
 		grpNoteSplashes = new FlxTypedGroup<NoteSplash>();
 		
 		persistentUpdate = true;
