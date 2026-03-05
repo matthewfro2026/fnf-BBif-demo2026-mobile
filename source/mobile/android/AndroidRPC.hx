@@ -3,6 +3,7 @@ package mobile.android;
 #if android
 import lime.system.JNI;
 
+// Discord RMobile by ArkoseLabs
 class AndroidRPC {
 	private static var _init:Dynamic = null;
 	private static var _update:Dynamic = null;
