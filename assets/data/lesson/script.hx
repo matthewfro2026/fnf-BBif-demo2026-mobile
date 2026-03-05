@@ -91,7 +91,7 @@ function onEvent(ev, v1, v2, time)
 				
 				camHUD._fxFadeAlpha = 1 - v2;
 			}
-		case 'startTerror':
+		case '':
 			switch (v1)
 			{
 				case "makeAngry":
