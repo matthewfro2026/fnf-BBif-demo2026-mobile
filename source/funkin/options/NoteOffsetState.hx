@@ -154,7 +154,7 @@ class NoteOffsetState extends MusicBeatState
 		add(controllerPointer);
 		
 		#if mobile
-		addVirtualPad(LEFT_RIGHT, A_B_C);
+		addVirtualPad(LEFT_RIGHT, B_C);
 		addVirtualPadCamera();
 		#end
 		
