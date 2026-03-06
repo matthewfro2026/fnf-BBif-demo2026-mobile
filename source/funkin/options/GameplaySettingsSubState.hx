@@ -78,6 +78,9 @@ class GameplaySettingsSubState extends BaseOptionsMenu
 			"If checked, Hold Notes can't be pressed if you miss,\nand count as a single Hit/Miss.\nUncheck this if you prefer the old Input System.", 'guitarHeroSustains', 'bool');
 		addOption(option);
 		
+		var option:Option = new Option('Bot Play', 'A Bot That Plays For You', 'botplay', 'bool');
+		addOption(option);
+		
 		super();
 	}
 	
