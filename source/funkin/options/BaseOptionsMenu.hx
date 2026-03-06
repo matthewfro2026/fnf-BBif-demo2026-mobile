@@ -169,6 +169,11 @@ class BaseOptionsMenu extends MusicBeatSubstate
 			return;
 		}
 		
+		#if mobile
+		if (!controls.isInSubstate)
+            controls.isInSubstate = true;
+        #end
+		
 		if (controls.UI_UP_P #if desktop || FlxG.mouse.wheel == 1 #end)
 		{
 			changeSelection(-1);

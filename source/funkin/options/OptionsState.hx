@@ -203,11 +203,6 @@ class OptionsState extends MusicBeatState
 	{
 		super.update(elapsed);
 		
-		#if mobile
-		if (controls.isInSubstate)
-            controls.isInSubstate = false;
-        #end
-		
 		if (canSelect)
 		{
 		    #if desktop
@@ -228,6 +223,11 @@ class OptionsState extends MusicBeatState
 				}
 			}
 			#end
+			
+			#if mobile
+			if (controls.isInSubstate)
+	            controls.isInSubstate = false;
+	        #end
 			
 			#if desktop if (FlxG.mouse.wheel != 0) changeSel(-FlxG.mouse.wheel); #end
 			
